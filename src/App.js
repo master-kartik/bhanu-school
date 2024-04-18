@@ -1,11 +1,13 @@
-import { Navbar } from "./components";
+import { Navbar, LandingSection, DoubleCard } from "./components";
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
       <Navbar />
-       <p>This is an initial commit</p>
+       <LandingSection/>
+       <DoubleCard/>
       </header>
     </div>
   );
