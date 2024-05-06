@@ -1,14 +1,21 @@
-import { Navbar, LandingSection, DoubleCard } from "./components";
+import { Navbar, LandingSection, HeroSection, MissionIcons, FooterWithSocialLinks} from "./components";
 
+import TextCard from "./components/TextCard";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <Navbar />
-       <LandingSection/>
-       <DoubleCard/>
+        <Navbar />
       </header>
+      <main>
+        <LandingSection />
+        <HeroSection/>
+        <MissionIcons/>
+        
+        <TextCard/>
+<FooterWithSocialLinks/>
+      </main>
     </div>
   );
 }
