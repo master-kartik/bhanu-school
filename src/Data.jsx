@@ -1,23 +1,27 @@
 const data = [
     {
       imgelink:
-        "https://images.unsplash.com/photo-1499696010180-025ef6e1a8f9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+        "https://assets.vogue.in/photos/5f8687d22ed1c0784ab7b016/1:1/w_2999,h_2999,c_limit/Sabyasachi%20Ajrakh%20uniforms.jpeg",
     },
     {
       imgelink:
-        "https://images.unsplash.com/photo-1432462770865-65b70566d673?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+        "https://i0.wp.com/cittaindia.org/wp-content/uploads/2022/12/girls-sitting-on-well-1800x1000-FTT.jpg?resize=1024%2C569&ssl=1",
     },
     {
       imgelink:
-        "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
+        "https://www.squareyards.com/blog/wp-content/uploads/2022/04/Elevated-Walkways-with-Perforated-Walls.jpg",
     },
     {
       imgelink:
-        "https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2762&q=80",
+        "https://www.squareyards.com/blog/wp-content/uploads/2022/04/Recessed-Circular-Spaces-within-Walls.jpg",
     },
     {
       imgelink:
-        "https://images.unsplash.com/photo-1682407186023-12c70a4a35e0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2832&q=80",
+        "https://i.guim.co.uk/img/media/e56bb5d2ff7a1efcde76853ecefce5a7c9834f54/0_0_1506_1068/master/1506.jpg?width=700&quality=85&auto=format&fit=max&s=1b3415a893135acd189d947c11efe862",
+    },
+    {
+      imgelink:
+        "https://i0.wp.com/cittaindia.org/wp-content/uploads/2023/02/w_vazquez_citta-4895-2400x1200-1.jpg?fit=2400%2C1200&ssl=1",
     },
   ];
   export default data;
