@@ -1,5 +1,5 @@
 
-import { Navbar, LandingSection, HeroSection, MissionIcons, FooterWithSocialLinks, Spotlight} from "./components";
+import { Navbar, LandingSection, HeroSection, MissionIcons, FooterWithSocialLinks, Spotlight, FaqSection, ContactUs} from "./components";
 
 
 
@@ -18,6 +18,8 @@ function App() {
         <Spotlight/>
         <HeroSection title={"A New Chapter in Rural Education"}  decription={"We are dedicated to delivering a world-class education that upholds time-honored values while embracing innovative and contemporary practices. Our commitment lies in blending the wisdom of tradition with the dynamism of modernity, ensuring our students receive a holistic learning experience that prepares them for success in an ever-evolving world."}/>
         <TextCard/>
+        <FaqSection/>
+        <ContactUs/>
         <FooterWithSocialLinks/>
       </main>
     </div>

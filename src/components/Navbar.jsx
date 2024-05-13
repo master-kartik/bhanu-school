@@ -6,7 +6,7 @@ const Navbar = () => {
       
       <div className="nleft flex -gap-1 items-center text-lg tracking-tighter cursor-pointer font-bold z-10">Bhanu School</div>
     
-      <div className="flex gap-5 cursor-pointer text-sm"> 
+      <div className="flex gap-5 text-sm"> 
     {["Home", "About", "Academics", "Community"].map((data, index)=>(
 
             <a href="/" key={index}>{data}</a>

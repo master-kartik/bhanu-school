@@ -26,7 +26,7 @@ import {
           </Typography>
         </CardBody>
         <CardFooter className="pt-0">
-          <Button className="bg-text">Read More</Button>
+          <Button className="bg-text">Discover</Button>
         </CardFooter>
       </Card>
     );
