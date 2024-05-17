@@ -15,7 +15,7 @@ const TextCard = () => {
    },
   ]
   return (
-    <div className="flex justify-between items-center mb-32 mx-20 ">
+    <div className="flex flex-col lg:flex-row justify-between items-center mb-32 mx-20 ">
         {data.map(({image,heading,body})=>(
           <CardNew image={image} heading={heading} body={body}/>
         ))}

@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom"
 
 const Navbar = () => {
   
@@ -7,9 +8,11 @@ const Navbar = () => {
       <div className="nleft flex -gap-1 items-center text-lg tracking-tighter cursor-pointer font-bold z-10">Bhanu School</div>
     
       <div className="flex gap-5 text-sm"> 
-    {["Home", "About", "Academics", "Community"].map((data, index)=>(
+    {["Home", "About", "Academics", "Contact"].map((data, index)=>(
 
-            <a href="/" key={index}>{data}</a>
+            // <a href="/" key={index}>{data}</a>
+            
+            <NavLink to={index===0 ? '/' : `/${data.toLocaleLowerCase()}`} >{data}</NavLink>
     ))}
       </div>
 

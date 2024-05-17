@@ -1,17 +1,10 @@
+import { Navbar, LandingSection, HeroSection, MissionIcons, FooterWithSocialLinks, Spotlight, FaqSection, ContactUs} from "./index";
+import React from 'react'
+import TextCard from "./TextCard";
 
-import { Navbar, LandingSection, HeroSection, MissionIcons, FooterWithSocialLinks, Spotlight, FaqSection, ContactUs} from "./components";
-
-
-
-import TextCard from "./components/TextCard";
-
-function App() {
+const Home = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Navbar />
-      </header>
-      <main>
+    <div>
         <LandingSection />
         <HeroSection title={"Our Mission"} decription={"We are committed to providing a world-class education that respects traditional values while embracing modern practices. We are committed to providing a well-rounded education that goes beyond the classroom. Our mission is to inspire and empower every student to achieve their full potential, both academically and athletically."}/>
         <MissionIcons/>
@@ -20,10 +13,8 @@ function App() {
         <TextCard/>
         <FaqSection/>
         <ContactUs/>
-        <FooterWithSocialLinks/>
-      </main>
     </div>
-  );
+  )
 }
 
-export default App;
+export default Home
