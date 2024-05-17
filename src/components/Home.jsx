@@ -1,4 +1,4 @@
-import { Navbar, LandingSection, HeroSection, MissionIcons, FooterWithSocialLinks, Spotlight, FaqSection, ContactUs} from "./index";
+import {LandingSection, HeroSection, MissionIcons, Spotlight, FaqSection, ContactUs} from "./index";
 import React from 'react'
 import TextCard from "./TextCard";
 

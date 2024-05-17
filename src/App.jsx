@@ -1,5 +1,5 @@
 
-import { Navbar, LandingSection, HeroSection, MissionIcons, FooterWithSocialLinks, Spotlight, FaqSection, ContactUs} from "./components";
+import { Navbar, FooterWithSocialLinks } from "./components";
 import { Outlet } from "react-router-dom";
 
 
