@@ -6,13 +6,14 @@ import { ThemeProvider } from "@material-tailwind/react";
 import {  Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom';
 import Home from './components/Home';
 
-import { ContactUs } from './components';
+import { About, ContactUs } from './components';
 
 const router =createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<App/>}>
       <Route path='' element={<Home/>}/>
       <Route path='contact' element={<ContactUs/>}/>
+      <Route path='about' element={<About/>}/>
 
     </Route>
   )

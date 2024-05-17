@@ -35,7 +35,7 @@ export default function FooterWithSocialLinks() {
       <div className="mx-auto w-full max-w-7xl px-8">
         {/* <ContactUs/> */}
         <div className="grid grid-cols-1 justify-between gap-4 md:grid-cols-2 text-[#EEEEEE]">
-          <Link to={'/'}><Typography  onClick={scrollToTop} variant="h5" className="mb-6">
+          <Link to={'/'} onClick={scrollToTop}><Typography  variant="h5" className="mb-6">
             Bhanu Public School
           </Typography></Link>
           <div className="grid grid-cols-3 justify-between gap-4">
