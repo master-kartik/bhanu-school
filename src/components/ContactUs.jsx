@@ -76,7 +76,7 @@ export default function ContactUs() {
                 size="lg"
                 placeholder="name@email.com"
                 name="email"
-                className="focus:border-t-text focus:border-2"
+                className="focus:border-t-text"
                 containerProps={{
                   className: "!min-w-full",
                 }}
