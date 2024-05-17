@@ -9,7 +9,7 @@ import {
    
   export default function CardNew({image, heading, body}) {
     return (
-      <Card className="mt-6 w-[27vw] h-fit ">
+      <Card className="mt-6 w-[90vw] lg:w-[27vw] h-fit ">
         <CardHeader color="blue-gray" className="relative  min-h-56  max-h-56 mt-4">
           <img
             src={image}

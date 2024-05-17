@@ -24,7 +24,7 @@ export default function CarouselNew({classNames, nav}) {
 
           <img
           key={index}
-            className="h-[80vh] w-full object-cover"
+            className="h-[60vh] lg:h-[80vh] w-full object-cover"
             src={imgelink}
             alt="gallery"
           />
