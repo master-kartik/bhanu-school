@@ -2,7 +2,7 @@ import React from 'react';
 
 const MissionIcons = () => {
   return (
-    <div className='flex justify-center items-center h-full'>
+    <div className='flex w-[98vw] justify-center items-center h-full'>
       <div className='w-full flex mt-0 mb-20 justify-center align-middle items-center'>
         <div className='flex gap-10'>
           <div className='flex flex-col items-center'>

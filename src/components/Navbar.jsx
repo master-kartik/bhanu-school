@@ -13,7 +13,7 @@ const Navbar = () => {
       
       <NavLink to={'/'} onClick={scrollToTop} className="nleft flex -gap-1 items-center text-lg select-none tracking-tighter cursor-pointer font-bold z-10">Bhanu School</NavLink>
     
-      <div className="flex gap-5 text-sm"> 
+      <div className=" hidden md:flex gap-5 text-sm"> 
     {["Home", "About", "Academics", "Contact"].map((data, index)=>(
 
             // <a href="/" key={index}>{data}</a>
