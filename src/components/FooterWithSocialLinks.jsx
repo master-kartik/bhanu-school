@@ -19,14 +19,15 @@ const LINKS = [
 ];
  
 const currentYear = new Date().getFullYear();
-const scrollToTop = () =>{ 
-  window.scrollTo({ 
-    top: 0,  
-    behavior: 'smooth'
-   
-  }); 
-}; 
+
 export default function FooterWithSocialLinks() {
+  const scrollToTop = () =>{ 
+    window.scrollTo({ 
+      top: 0,  
+      behavior: 'smooth'
+     
+    }); 
+  }; 
   return (
     <footer className="relative w-full bg-text pt-8">
     
