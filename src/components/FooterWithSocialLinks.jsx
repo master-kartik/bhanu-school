@@ -1,4 +1,5 @@
 import { Typography } from "@material-tailwind/react";
+import { Link } from "react-router-dom";
 
 
  
@@ -18,7 +19,13 @@ const LINKS = [
 ];
  
 const currentYear = new Date().getFullYear();
- 
+const scrollToTop = () =>{ 
+  window.scrollTo({ 
+    top: 0,  
+    behavior: 'smooth'
+   
+  }); 
+}; 
 export default function FooterWithSocialLinks() {
   return (
     <footer className="relative w-full bg-text pt-8">
@@ -27,9 +34,9 @@ export default function FooterWithSocialLinks() {
       <div className="mx-auto w-full max-w-7xl px-8">
         {/* <ContactUs/> */}
         <div className="grid grid-cols-1 justify-between gap-4 md:grid-cols-2 text-[#EEEEEE]">
-          <Typography variant="h5" className="mb-6">
+          <Link to={'/'}><Typography  onClick={scrollToTop} variant="h5" className="mb-6">
             Bhanu Public School
-          </Typography>
+          </Typography></Link>
           <div className="grid grid-cols-3 justify-between gap-4">
             {LINKS.map(({ title, items }) => (
               <ul key={title}>
@@ -58,6 +65,7 @@ export default function FooterWithSocialLinks() {
         </div>
         <div className="mt-12 flex w-full flex-col items-center justify-center border-t border-blue-gray-50 py-4 md:flex-row md:justify-between">
           <Typography
+         
             variant="small"
             className="mb-4 text-center font-normal justify-center text-[#EEEEEE] md:mb-0"
           >

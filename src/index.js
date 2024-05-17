@@ -5,6 +5,7 @@ import App from './App';
 import { ThemeProvider } from "@material-tailwind/react";
 import {  Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom';
 import Home from './components/Home';
+
 import { ContactUs } from './components';
 
 const router =createBrowserRouter(
