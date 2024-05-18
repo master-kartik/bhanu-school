@@ -2,9 +2,9 @@ import {
     Card,
     CardHeader,
     CardBody,
-    CardFooter,
+    
     Typography,
-    Button,
+    
   } from "@material-tailwind/react";
    
   export default function CardNew({image, heading, body}) {
@@ -25,9 +25,7 @@ import {
            {body}
           </Typography>
         </CardBody>
-        <CardFooter className="pt-0">
-          <Button className="bg-text">Discover</Button>
-        </CardFooter>
+       
       </Card>
     );
   }

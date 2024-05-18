@@ -2,9 +2,9 @@ import { Carousel } from "@material-tailwind/react";
 import data from "../Data";
 export default function CarouselNew({classNames, nav}) {
   return (
-    <Carousel autoplay="true"
-    autoplayDelay="3000"
-    loop="true"
+    <Carousel autoplay={true}
+    autoplayDelay={3000}
+    loop={true}
       className={`${classNames}`}
       navigation={({ setActiveIndex, activeIndex, length }) => (
         <div className={`absolute bottom-4 left-2/4 z-50 flex -translate-x-2/4 gap-2`}>

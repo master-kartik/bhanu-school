@@ -3,6 +3,7 @@
 import { Navbar, FooterWithSocialLinks } from "./components";
 import { Outlet } from "react-router-dom";
 import LocomotiveScroll from 'locomotive-scroll';
+import SNavbar from "./components/SNavbar";
 
 
 
@@ -14,7 +15,8 @@ function App() {
  
   return (
     <div>
-        <Navbar />
+      <SNavbar/>
+        {/* <Navbar /> */}
       
         <Outlet />
         <FooterWithSocialLinks/>
