@@ -22,12 +22,12 @@ export default function SNavbar() {
   }, []);
  
   const navList = (
-    <div className={`md:flex w-auto bg-background md:bg-transparent h-screen md:h-auto text-center md:text-left  gap-5 items-center p-16 md:p-0 `}> 
+    <div className={` md:flex w-auto md:bg-transparent h-screen md:h-auto text-center md:text-left  md:gap-5 items-center z-50 p-16 md:p-0 `}> 
     {["About", "Academics", "Contact","Search"].map((data, index)=>(
 
       index === 3 ? (<i key={{index}} className="ri-search-line text-text  ml-6 cursor-pointer text-lg " ></i>) : (
   
-        <NavLink key={{index}}  to={`/${data.toLocaleLowerCase()}`} ><div className="text-sm">{data}</div></NavLink>
+        <NavLink key={{index}}  to={`/${data.toLocaleLowerCase()}`} ><div className=" text-3xl hover:text-background mb-5 md:mb-0 font-bold tracking-tighter md:text-sm">{data}</div></NavLink>
       )
     )
 
@@ -41,7 +41,7 @@ export default function SNavbar() {
   )
 
   return (
-    <div className="flex top-1 items-center left-1/2 transform -translate-x-1/2 text-[#111C2C] justify-between bg-opacity-20  backdrop-blur-md fixed w-[96vw] lg:w-4/5 mt-[0vw] rounded-lg  bg-[#B3BFC4] z-50 py-4 px-8 shadow-md">
+    <div className="flex top-1 items-center left-1/2 transform -translate-x-1/2 text-[#111C2C] justify-between bg-opacity-20  backdrop-blur-md fixed w-[96vw] lg:w-4/5 mt-[0vw] rounded-lg  bg-[#B3BFC4] z-50 py-4 px-8">
    
        
         <NavLink to={'/'}  className="nleft flex -gap-1 items-center text-lg select-none tracking-tighter cursor-pointer font-bold z-10">Bhanu School</NavLink>
@@ -90,7 +90,7 @@ export default function SNavbar() {
             </IconButton>
           </div>
         
-        <MobileNav  className="lg:hidden fixed top-[10vh] h-screen overflow-hidden" open={openNav}>
+        <MobileNav  className="lg:hidden backdrop:blur-lg items-center text-[#111C2C] justify-between bg-opacity-20  backdrop-blur-none mt-[0vw]  bg-[#B3BFC4] z-50 shadow-md   fixed top-[10vh] overflow-hidden    " open={openNav}>
           {navList}
          
         </MobileNav>
