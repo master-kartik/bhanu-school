@@ -6,7 +6,7 @@ import TextCard from'./TextCard'
 
 const About = () => {
   return (
-    <div>
+    <div className=''>
     <div className='bg-gradient-to-t from-gray-900 via-gray-600 to-gray-900'>
         <CarouselNew classNames={"w-screen opacity-65"}/>
 
