@@ -32,7 +32,7 @@ export default function SNavbar() {
     {["About", "Academics", "Contact","Search"].map((data, index)=>(
 
       index === 3 ? (<div className="flex  items-center">
-        <input type="text" placeholder="Search" className={`${openSearch === true ? "md:inline-block" : "md:hidden"} input re input-bordered border-white border-opacity-70 md:placeholder:opacity-100 shadow-sm decoration-text focus:border-text outline-none md:placeholder:text-white placeholder:text-sm placeholder:font-thin rounded-md md:rounded-md w-[50vw] m-8 md:m-0 md:w-[10vw] text-sm text-text h-[5vh] md:bg-transparent md:h-[3vh] max-w-xs`} />
+        <input type="text" placeholder="Search" className={`${openSearch === true ? "md:inline-block" : "md:hidden"} input re input-bordered border-white border-opacity-70 md:placeholder:opacity-100 shadow-sm decoration-text focus:border-text outline-none md:placeholder:text-white placeholder:text-sm placeholder:font-thin rounded-md md:rounded-md w-[50vw] m-8 md:m-0 md:w-[10vw] text-sm text-text h-[5vh] md:bg-transparent md:h-[3vh] xl:h-[5vh] max-w-xs`} />
         <i key={{index}} onClick={()=>{
           setOpenSearch(!openSearch)
         }} className=" ri-search-line text-background md:text-text text-3xl  md:ml-2 cursor-pointer md:text-lg " ></i>
