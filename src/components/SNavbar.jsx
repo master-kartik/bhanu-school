@@ -56,7 +56,10 @@ export default function SNavbar() {
     <div className="flex top-1 items-center left-1/2 transform -translate-x-1/2 text-[#111C2C] justify-between bg-opacity-20  backdrop-blur-md fixed w-[96vw] lg:w-4/5 mt-[0vw] rounded-lg  bg-[#B3BFC4] z-50 py-4 px-8">
    
        
-        <NavLink to={'/'} onClick={scrollToTop}  className="flex -gap-1 items-center text-lg select-none tracking-tighter cursor-pointer font-bold z-10">Bhanu School</NavLink>
+        <NavLink to={'/'} onClick={()=>{
+          scrollToTop()
+          setOpenNav(false)
+        }}  className="flex -gap-1 items-center text-lg select-none tracking-tighter cursor-pointer font-bold z-10">Bhanu School</NavLink>
         
           <div className="flex items-center justify-between gap-4">
             <div className="hidden md:block">
