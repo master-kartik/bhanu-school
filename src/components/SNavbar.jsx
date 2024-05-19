@@ -1,12 +1,10 @@
 import React from "react";
+import '../index.css'
 import { NavLink } from "react-router-dom"
 import {
-  Navbar,
-  MobileNav,
-  Typography,
-  Button,
+  Collapse,
   IconButton,
-  Card,
+ 
 } from "@material-tailwind/react";
  
 export default function SNavbar() {
@@ -25,9 +23,9 @@ export default function SNavbar() {
     <div className={` md:flex w-auto md:bg-transparent h-screen md:h-auto text-center md:text-left  md:gap-5 items-center z-50 p-16 md:p-0 `}> 
     {["About", "Academics", "Contact","Search"].map((data, index)=>(
 
-      index === 3 ? (<i key={{index}} className="ri-search-line text-text  ml-6 cursor-pointer text-lg " ></i>) : (
+      index === 3 ? (<i key={{index}} className="ri-search-line text-background md:text-text text-3xl  md:ml-6 cursor-pointer md:text-lg " ></i>) : (
   
-        <NavLink key={{index}}  to={`/${data.toLocaleLowerCase()}`} ><div className=" text-3xl hover:text-background mb-5 md:mb-0 font-bold tracking-tighter md:text-sm">{data}</div></NavLink>
+        <NavLink key={{index}}  to={`/${data.toLocaleLowerCase()}`} ><div className=" text-3xl hover:bg-dark hover:shadow-lg p-6 rounded-lg shadow-sm md:mb-0 font-bold tracking-tighter md:text-sm">{data}</div></NavLink>
       )
     )
 
@@ -44,7 +42,7 @@ export default function SNavbar() {
     <div className="flex top-1 items-center left-1/2 transform -translate-x-1/2 text-[#111C2C] justify-between bg-opacity-20  backdrop-blur-md fixed w-[96vw] lg:w-4/5 mt-[0vw] rounded-lg  bg-[#B3BFC4] z-50 py-4 px-8">
    
        
-        <NavLink to={'/'}  className="nleft flex -gap-1 items-center text-lg select-none tracking-tighter cursor-pointer font-bold z-10">Bhanu School</NavLink>
+        <NavLink to={'/'}  className="flex -gap-1 items-center text-lg select-none tracking-tighter cursor-pointer font-bold z-10">Bhanu School</NavLink>
         
           <div className="flex items-center justify-between gap-4">
             <div className="hidden lg:block">
@@ -90,11 +88,16 @@ export default function SNavbar() {
             </IconButton>
           </div>
         
-        <MobileNav  className="lg:hidden backdrop:blur-lg items-center text-[#111C2C] justify-between bg-opacity-20  backdrop-blur-none mt-[0vw]  bg-[#B3BFC4] z-50 shadow-md   fixed top-[10vh] overflow-hidden    " open={openNav}>
+       <div className="md:hidden absolute top-16 z-30 w-full w-screen-md mx-auto  left-1/2  transform -translate-x-1/2 text-background bg-text bg-opacity-[99%] backdrop-blur-lg  rounded-lg  shadow-md">
+       <Collapse  className="" open={openNav}>
+          
+          
           {navList}
          
-        </MobileNav>
+        </Collapse>
 
+
+       </div>
       
     </div>
   );

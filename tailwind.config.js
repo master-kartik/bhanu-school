@@ -11,7 +11,30 @@ module.exports = ({
     themes: false,
   },
   theme: {
-    extend: {},
+    extend: {
+      backdropFilter: {
+        'none': 'none',
+        'blur': 'blur(20px)',
+      
+    }
+    },
+    collapse: {
+      defaultProps: {
+        animate: {
+          unmount: {},
+          mount: {},
+        },
+        className: "",
+      },
+      styles: {
+        base: {
+
+          width: "w-[32px]",
+          basis: "basis-full",
+          overflow: "overflow-hidden",
+        },
+      },
+    },
     colors: {
       'text': '#111C2C',
       'background': '#FFF8ED',
@@ -22,7 +45,8 @@ module.exports = ({
      },
   },
   plugins: [
-    require('flowbite/plugin')
+    require('flowbite/plugin'),
+   
   ],
 });
 
