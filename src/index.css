@@ -30,14 +30,14 @@ body{
     font-family: 'Archivo';
     src: url('/assets/Archivo-Light.ttf') format('truetype');
          
-    font-weight: 'light';
+    font-weight: 'thin';
     font-style: normal;
   }
   @font-face {
     font-family: 'Archivo';
     src: url('/assets/ARCHIVO-SEMIBOLD.TTF') format('truetype');
          
-    font-weight: 'extra-light';
+    font-weight: 'extra-thin';
     font-style: normal;
   }
   @font-face {
@@ -66,6 +66,6 @@ body{
     font-family: 'EditorialNew';
     src: url('/assets/PPEditorialNew-Ultralight.otf') format('opentype');
          
-    font-weight: 'light';
+    font-weight: 'thin';
     font-style: normal;
   }
