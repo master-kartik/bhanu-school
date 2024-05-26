@@ -7,7 +7,7 @@ const MissionIcons = () => {
         <div className='flex gap-10'>
           <div className='flex flex-col items-center'>
             <div className='icon w-[8vw] lg:w-[3vw]'><img src="https://img.icons8.com/ios-glyphs/90/admission.png" alt="admission" /></div>
-            <div className='text-xs text-[#9C9998] my-2 w-full text-left md:w-3/4 font-bold md:text-center leading-[0.9rem]'>Admission Open 2024-2025</div>
+            <div className='text-xs text-[#9C9998] my-2 w-full text-left md:w-3/4 font-bold md:text-center leading-[0.9rem]'>Admissions 2024-2025</div>
           </div>
 
           <div className='flex flex-col items-center'>
