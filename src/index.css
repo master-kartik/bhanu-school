@@ -40,3 +40,32 @@ body{
     font-weight: 'extra-light';
     font-style: normal;
   }
+  @font-face {
+    font-family: 'Archivo';
+    src: url('/assets/Archivo-Bold.ttf') format('truetype');
+         
+    font-weight: 'bold';
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'EditorialNew';
+    src: url('/assets/PPEditorialNew-Regular.otf') format('opentype');
+         
+    font-weight: 'regular';
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'EditorialNew';
+    src: url('/assets/PPEditorialNew-Ultrabold.otf') format('opentype');
+         
+    font-weight: 'bold';
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'EditorialNew';
+    src: url('/assets/PPEditorialNew-Ultralight.otf') format('opentype');
+         
+    font-weight: 'light';
+    font-style: normal;
+  }
