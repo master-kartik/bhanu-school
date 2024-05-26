@@ -43,6 +43,10 @@ module.exports = ({
       'accent': '#a873cf',
       'dark': '#393E46'
      },
+     fontFamily: {
+      'EditorialNew' : 'PP_Editorial_New',
+      'Archivo': 'Archivo'
+     }
   },
   plugins: [
     require('flowbite/plugin'),

@@ -2,3 +2,41 @@
 @tailwind components;
 @tailwind utilities;
 ::-webkit-scrollbar {display:none;}
+body{
+    font-family: 'Archivo';
+}
+@font-face {
+    font-family: 'Archivo';
+    src: url('/assets/ARCHIVO-REGULAR.TTF') format('truetype');
+         
+    font-weight: 'regular';
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Archivo';
+    src: url('/assets/ARCHIVO-MEDIUM.TTF') format('truetype');
+         
+    font-weight: 'medium';
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Archivo';
+    src: url('/assets/ARCHIVO-SEMIBOLD.TTF') format('truetype');
+         
+    font-weight: 'semibold';
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Archivo';
+    src: url('/assets/Archivo-Light.ttf') format('truetype');
+         
+    font-weight: 'light';
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Archivo';
+    src: url('/assets/ARCHIVO-SEMIBOLD.TTF') format('truetype');
+         
+    font-weight: 'extra-light';
+    font-style: normal;
+  }
