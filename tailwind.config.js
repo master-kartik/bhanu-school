@@ -45,7 +45,7 @@ module.exports = ({
      },
      fontFamily: {
       'EditorialNew' : 'PP_Editorial_New',
-      'Archivo': 'Archivo'
+      'Archivo': ['Archivo', 'sans-serif']
      }
   },
   plugins: [
