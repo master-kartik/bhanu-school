@@ -6,7 +6,7 @@ const LandingSection = () => {
         src="https://www.stirworld.com/images/article_gallery/the-gyaan-centre-jaisalmer-designed-by-diana-kellogg-with-the-citta-organisation-rajkumari-ratnavati-school-and-women-s-center-diana-kellog-architects-stirworld-210125050245_t.jpg"
         alt="Bhanu Public School"
       />
-      <div className="absolute  top-1/3 left-1/2 transform font-EditorialNew -translate-x-1/2 -translate-y-1/2 text-3xl lg:text-6xl text-[#f9f9f3] z-10 text-left md:text-center  lg:leading-[0.50] font-semibold select-none tracking-tight sm:leading-[0.6] w-[80vw] md:[70vw] lg:w-[60vw]">
+      <div className="absolute  top-1/3 left-1/2 transform font-EditorialNew -translate-x-1/2 -translate-y-1/2 text-3xl lg:text-6xl text-[#f9f9f3] z-10 text-left md:text-center  lg:leading-[0.50] font-extralight select-none tracking-tight sm:leading-[0.6] w-[80vw] md:[70vw] lg:w-[60vw]">
         Bhanu Public School{" "} <br/><span className="font-Archivo font-thin mt-0 text-2xl tracking-normal text-[#f9f9f3c0]">bridging education</span>
       </div>
     </div>

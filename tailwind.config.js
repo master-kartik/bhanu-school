@@ -44,7 +44,7 @@ module.exports = ({
       'dark': '#393E46'
      },
      fontFamily: {
-      'EditorialNew' : 'PP_Editorial_New',
+      'EditorialNew' : ['PP_Editorial_New', 'serif'],
       'Archivo': ['Archivo', 'sans-serif']
      }
   },
